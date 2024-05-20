@@ -1,5 +1,6 @@
-import express, { Request, Response } from "express";
-const router2 = express.Router();
+import { Request, Response } from "express";
+const express2 = require("express");
+const router2 = express2.Router();
 const { Participants } = require("../models");
 
 router2.post("/", async (req: Request, res: Response) => {

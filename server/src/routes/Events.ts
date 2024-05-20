@@ -1,4 +1,5 @@
-import express, { Request, Response } from "express";
+import { Request, Response } from "express";
+const express = require("express");
 const router = express.Router();
 const { Events } = require("../models");
 
